@@ -1,0 +1,204 @@
+*   {
+  margin: 0;
+  padding: 0px;
+  
+}
+
+.kontent {
+  background-color: gainsboro;
+  margin: 50px auto;
+  
+  width: 55%;
+  min-height: 440px; 
+  overflow: hidden;
+  border-radius: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+ 
+
+
+header {
+  min-height: 40px;
+  background-color: teal;
+  padding: 10px;
+  color: #fafafa;
+  
+}
+nav {
+  min-height: 30px;
+}
+
+
+
+.label_przypomnienie {
+    color: crimson;
+    font-size: 13px;
+    display: none;
+    
+   
+    
+    
+  }
+  
+
+   :invalid:not(:placeholder-shown) + .label_przypomnienie {
+      display:inline;
+      float:right;
+      
+      
+      
+   }
+
+    .lista {
+      border-radius: 20px;
+      overflow: hidden;
+      margin: 10px 10%; 
+      padding:10px;
+      background: #fafafa;
+      border: 1px solid #3e9ac583;
+      
+      font-size: 16px;
+      
+      
+
+    }
+    
+    .lista_wip{
+      background: green !important;
+      color: white !important;
+    }
+
+    .glyphicon {
+      color: black;
+      padding: 0px 5px 0 5px;
+      
+    }
+
+    h1, h4 {
+      text-align: center;
+     padding: 15px;
+      
+    }
+
+    
+
+    form fieldset{
+      margin: 20px; 
+      background: #fafafa;
+      border: 1px solid #3e9ac583;
+  }
+  
+  form fieldset legend {
+      background: teal;
+      font-size: 20px;
+      color: #fafafa;
+  }
+
+  form input {
+   font-size: 16px;
+   padding: 8px;
+  }
+
+
+.polowa_szerokosci {
+    text-align: center;
+    display: inline-block;
+    min-height: 85px;
+    width: 47%;
+   
+    
+}
+
+.jedna-siodma_szerokosci {
+  text-align: center;
+  display:inline-block;
+  width: 11.2%;
+  margin: 2px 1%;
+}
+.zatwierdzanie {
+  border-radius: 20px;
+  background:#008111;
+  color:white;
+  margin: 2px 3%;
+  padding: 10px 20px;
+}
+
+.zatwierdzanie:hover, .resetowanie:hover, .powracanie:hover {
+  text-decoration: none;
+  color:black;
+}
+    
+
+.resetowanie {
+  border-radius: 20px;
+  background:#dc0000;
+  color:white;
+  margin: 2px 3%;
+  padding: 5px 15px;
+}
+   
+.powracanie {
+  border-radius: 20px;
+  background:orange;
+  color:white;
+  margin: 25px 3%;
+  padding: 5px 15px;
+  float: right;
+}
+   
+.przyciski {
+  text-align: center;
+  margin: 10px;
+  
+}
+
+.zatwierdzanie:disabled {
+  background: grey;
+}
+
+.info {
+  min-height: 27px;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+
+#info_wylosowane {
+  color:#008111;
+  font-size: 20px;
+}
+
+.dane {
+  
+  margin: 20px; 
+  padding:20px;
+      background: #fafafa;
+      border: 1px solid #3e9ac583;
+      font-size: 16px;
+
+
+      
+
+}
+
+#nav_create {
+  float:left;
+  
+  
+}
+
+#nav_los {
+  float:right;
+
+
+}
+
+#h_glowna{
+  font-size: 24px;
+}
+
+#wylosowane_index {
+text-align: center;
+}
